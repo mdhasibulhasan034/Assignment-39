@@ -1,0 +1,160 @@
+
+
+@media (max-width: 1280px) {
+  
+    /* CSS */
+    .widthfix {
+      width: 100%;
+    }
+  
+    .menu-left {
+      margin-left: 15px;
+    }
+    .menu-left {
+      float: left;
+      width: 28%;
+  }
+  .menu-right {
+    float: right;
+    width: 69%;
+    margin-right: 15px;
+}
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (max-width: 1025px) {
+    .menu-left {
+      float: left;
+      width: 27%;
+    }
+    .menu-left h1 a {
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+    }
+    .about h1 {
+    padding-bottom: 15px;
+    font-size: 30px;
+    }
+    .content-left {
+      float: left;
+      width: 100%;
+      margin-left: 0;
+  }
+    
+    
+  }
+
+  .menu-right span{
+    display: none;
+  }
+  
+/*   
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px */
+ 
+
+  @media (max-width: 825px) {
+    .widthfix {
+      width: 100%;
+    }
+    .menu-left {
+      width: 80%;
+      text-align: center;
+      position: relative;
+    }
+    .menu-right ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .menu-right {
+      width: 17%;
+    }
+    .menu-right span {
+    cursor: pointer;
+    display: block;
+    top: 15px;
+    font-size: 22px;
+    position: absolute;
+    }
+    .banner h1 {
+      font-size: 35px;
+    }
+    .banner h4 {
+      font-size: 18px;
+    }
+    .box1 {
+      width: 98%;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    .content-left {
+      float: left;
+      width: 100%;
+    }
+    .content-left img {
+      width: 100%;
+      height: auto;
+    }
+    .content-right {
+      width: 93%;
+    }
+    .Contact {
+      background-color: #f6f6f6;
+      margin-top: 784px;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 9px;
+    }
+    .box2 {
+      width: 100%;
+      float: none;
+      margin-bottom: 20px;
+    }
+
+}
+  
+  @media (max-width: 767px) {
+    
+    /* CSS */
+    .banner h1 {
+      font-size: 25px;
+  }
+    .banner h4 {
+      font-size: 16px;
+      margin-top: -14px;
+  }
+  .banner{
+    padding: 120px 0;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .widthfix {
+      width: 100%;
+  }
+  .menu-left h1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+
+    
+  }
